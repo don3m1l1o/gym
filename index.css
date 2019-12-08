@@ -1,0 +1,25 @@
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    background-color: azure;
+    padding: 20px;
+}
+
+.col{
+    width: 80px;
+    height: 200px;
+    /*border-style: solid;
+    background-color: antiquewhite;*/
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 0 0;   
+}
+
+.pic {
+    width: 120px;
+    height: 195px;
+}
+.pic2 {
+    width: 220px;
+    height: 195px;
+}
