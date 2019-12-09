@@ -64,20 +64,55 @@ h1{
 /*Tarjetas*/
 .cards{
     background-color: rgb(15, 41, 112);
-    height: 600px;
+    height: 650px;
     margin-top: 3px;
     padding: 0px;
-}
-.tarj{
-    /* border: solid 2px white; */
-    /* background-color: tomato; */
-    height: 300px;
-    width: 340px;
-    margin: 0px;
-    
 }
 .sinpadding [class*="col-"] {
     padding: 0;
 }
+
+.tarjeta{
+    height: 290px;
+    width: 320px;
+    padding: 0px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgba(76, 120, 240, 0.808);
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    float: left;
+    
+}
+.tarjImg{
+    width: 320px;
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: none;
+}
+.tarjCont{
+    width: 320px;
+    height: 140px;
+    padding: 0px;
+    margin: 0px;
+}
+.txt-tarj{
+    font-size: 12px;
+    padding: 0px 10px;
+    margin: 0px;
+    text-justify: auto;
+}
+.tarjFooter{
+    font-size: 30px;
+    text-align: center;
+}
+.title{
+    margin-top: 0px;
+    padding: 10px 0px   ;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 
 
