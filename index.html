@@ -6,78 +6,166 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+    <script src="index.js"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>CV-Emilio</title>
+    <title>Bienvenidos al Gym</title>
 </head>
 <body>
-
+  
   <div class="container">
-    <div class="col-12 titulo">
-      Pelotas Hernandez
+
+    <div class="head col">
+      <div class="divLogo"><img class="logo" src="./img/logo.png" alt=""></div>
+      <div class="divTitle"><h4>Spartans</h4></div>
     </div>
-    <div class="row">
-      <div class="col-2 col">
-          <img class="pic" src="img/img01.jpg" alt="">
-      </div>
-      <div class="col-2 col">
-          <img class="pic" src="img/img02.jpg" alt="">
-      </div>
-      <div class="col-2 col">
-          <img class="pic" src="img/img03.jpg" alt="">
-      </div>
-      <div class="col-2 col">
-          <img class="pic" src="img/img04.jpg" alt="">
-      </div>
-      <div class="col-2 col">
-          <img class="pic" src="img/img05.jpg" alt="">
-      </div>
-      <div class="col-2 col">
-          <img class="pic" src="img/img06.jpeg" alt="">
-      </div>
+
+    <!-- carrusel en Bootstrap 4 -->
+
+    <div class="carrusel">
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="6"></li> 
+              <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+                <img src="img/carrusel/slide1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                  <h3 class="txtCarItem">Aerobic</h3>
+                  <p class="txtCarItem">
+                    Intesivas sesiones de trabajo aeróbico juanto a el mejor equipo de profesores.Disfruta 
+                    de clases durante toda la semana en diversos horarios.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carrusel/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                  <h3 class="txtCarItem">Boxeo</h3>
+                  <p class="txtCarItem"> 
+                    Boxeo recreativo para experimentar el pugilismo. Clases con profesores los lunes, miércoles
+                    y viernes. Dos horas de un entrenamiento técnico e intensivo similar al profesional.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carrusel/slide3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                  <h3 class="txtCarItem">Gym</h3>
+                  <p class="txtCarItem">
+                    Completo centro de entrenamiento y con la asistencia de entrenadores capacitados. Abrimos a
+                    partir de las 7 a.m. hasta las 23 p.m. hs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img src="img/carrusel/slide4.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                    <h3 class="txtCarItem">Spinning</h3>
+                    <p class="txtCarItem">
+                      Disruta de la nueva modalidad de ejercicios, quemaras grasas y te divertiras. Disponemos 
+                      de gran variedad de horarios y bicicletas.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carrusel/slide5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                   <h3 class="txtCarItem">Zumba</h3>
+                  <p class="txtCarItem">
+                    Danza y ejercicios en la mejor combinación. Si te gusta bailar y quieres hacer muchos amigos 
+                    no lo pienses, te esperamos.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carrusel/slide6.jpeg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                    <h3 class="txtCarItem">Natación</h3>
+                    <p class="txtCarItem">
+                      El centro dispone de una pileta olímpica cllimatizada para que entrenes todo el año. Puedes
+                      entrenar solo o con profesor. Inscríbete!!
+                    </p>
+                  </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="img/carrusel/slide7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                  <h3 class="txtCarItem">Karate</h3>
+                  <p class="txtCarItem">
+                    Martes y jueves el sensei Ricardo Morales les enseñara el antiguo arte japonés del Karate. Clases 
+                    para adultos y niños.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="img/carrusel/slide8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-caption-contrast">
+                  <h3 class="txtCarItem">Crossfit</h3>
+                  <p class="txtCarItem">
+                    Disfruta del completo entrenamiento que ha revolucionado los gimnasios del mundo. Hay horarios todos
+                     los días. Los cupos son limitados, no te demores.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
     </div>
+
+    <div class="cards col">
+      <h1>tipos de entrenmientos</h1>
+    </div>
+
+    <div class="head col">
+        <h1>footer</h1>
+    </div>
+
   </div>
 
- 
-  <div class="toComplete row"></div>
-
-
-
-
-  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-database.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
-
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyBCrnzYg8IRIgyJh-z4voUEtJffHZtrLhE",
-      authDomain: "practica-curso-web.firebaseapp.com",
-      databaseURL: "https://practica-curso-web.firebaseio.com",
-      projectId: "practica-curso-web",
-      storageBucket: "practica-curso-web.appspot.com",
-      messagingSenderId: "961085172917",
-      appId: "1:961085172917:web:49d59339affd38b8e362fc",
-      measurementId: "G-Q7CBK4GR0E"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
-    
   <script src="js/bootstrap.js" type="text/javascript"></script>
   <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
   <script src="index.js"></script>
-
-
-
 </body>
 </html>
