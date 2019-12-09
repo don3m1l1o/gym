@@ -21,15 +21,15 @@ h1{
 /* Cabecera*/
 
 .head{
-    background-color: rgb(105, 0, 0);
-    height: 70px;
+    background-color: rgb(15, 41, 112);
+    height: 100px;
     margin-top: 5px;
-    padding-left: 20px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 .divLogo{
     float: left;
@@ -42,7 +42,7 @@ h1{
 
 /*Carrusel*/
 .carrusel{
-    background-color: rgb(105, 0, 0);
+    background-color: rgb(15, 41, 112);
     height: 400px;
     /* margin-top: 3px; */
 }
@@ -57,14 +57,27 @@ h1{
     /*height:80%;*/
 }
 .carousel-caption-contrast{
-    background-color: rgba(53, 49, 49, 0.7);
+    background-color: rgba(15, 41, 112, 0.7);
     padding: 20px;
 }
 
 /*Tarjetas*/
 .cards{
-    background-color: rgb(115, 0, 0);
+    background-color: rgb(15, 41, 112);
     height: 600px;
     margin-top: 3px;
+    padding: 0px;
 }
+.tarj{
+    /* border: solid 2px white; */
+    /* background-color: tomato; */
+    height: 300px;
+    width: 340px;
+    margin: 0px;
+    
+}
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
 
