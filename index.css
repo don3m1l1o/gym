@@ -54,7 +54,14 @@ h1{
 
 .divLogo{
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
+}
+
+.hello{
+    color: rgba(255, 255, 255, 0.85);
+    float: left;
+    margin-top: 20px;
+    margin-left: 420px;
 }
 
 .user{
@@ -89,15 +96,17 @@ h1{
 }
 
 .menuDiv{
-    /* width: 500px; */
-    margin-top: 0px;
-    margin-left: 175px;
+    height: 40px;
+    margin: 0px;
+    padding-left: 50px;
+    background-color: rgb(15, 41, 112);
+    box-shadow: 3px 3px 7px rgb(44, 44, 46);
 }
 
 .menuItem{
-    margin-left: 100px;
+    margin-top: 6px;
+    margin-left: 150px;
     float: left;
-
 }
 
 
@@ -106,7 +115,7 @@ h1{
 
 .carrusel{
     background-color: rgb(15, 41, 112);
-    height: 400px;
+    height: 425px;
     box-shadow: 3px 3px 7px rgb(44, 44, 46);
 }
 
@@ -133,7 +142,7 @@ h1{
 
 .planes{
     background-color: rgb(15, 41, 112);
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 10px;
     text-align: center;
     box-shadow: 3px 3px 7px rgb(44, 44, 46);
@@ -200,9 +209,11 @@ h1{
 
 .foot{
     height: 80px;
-    margin: 0px;
+    margin-top: 1px;
     padding : 0px;
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    background-color: rgb(15, 41, 112);
+    box-shadow: 3px 3px 7px rgb(2, 2, 41);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46);
     background: rgba(8,18,133,1);
     background: -moz-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,18,133,1)), color-stop(46%, rgba(66,66,179,1)), color-stop(100%, rgba(86,86,214,1)));
@@ -210,7 +221,17 @@ h1{
     background: -o-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: -ms-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: linear-gradient(to right, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081285', endColorstr='#5656d6', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081285', endColorstr='#5656d6', GradientType=1 ); */
+}
 
+.itemFooter img{
+    width: 30px;
+    height: 30px;
+}
+
+.itemFooter{
+    float: right;
+    margin-right: 35px;
+    margin-top: 25px;
 }
 
