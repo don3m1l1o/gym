@@ -1,0 +1,97 @@
+.calendario{
+    margin: 100px;
+    padding-left: 15px;
+    width: 1120px;
+    height: 150px;
+}
+
+.daysMn{
+    width: 130px;
+    text-align: center;
+    height: 150px;
+}
+
+.dayMn{
+    width: 110px;
+    text-align: center;
+    height: 150px;
+    padding-left: 5px;
+}
+
+.actvMn{
+    color: white;
+    width: 100px;
+    height: 22px;
+    margin-top: 2px;
+    padding: 0px;
+    border-radius: 6px;
+}
+
+.aerobic{
+    background-color: tomato;
+}
+
+.spinning{
+    background-color: rgb(136, 136, 28);
+}
+
+.crossfit{
+    background-color: rgb(12, 48, 1);
+}
+
+.zumba{
+    background-color: rosybrown;
+}
+
+.daysHsMn{
+    width: 130px;
+    text-align: center;
+    height: 30px;
+}
+
+.dayHsMn{
+    width: 110px;
+    text-align: center;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.hs{
+    background-color: rgb(65, 245, 30);
+}
+
+.daysTd{
+    width: 130px;
+    text-align: center;
+    height: 150px;
+}
+
+.dayTd{
+    width: 90px;
+    text-align: center;
+    height: 150px;
+    padding-left: 5px;
+}
+
+.daysHsTd{
+    width: 130px;
+    text-align: center;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.dayHsTd{
+    width: 90px;
+    text-align: center;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.actvTd{
+    color: white;
+    width: 80px;
+    height: 22px;
+    margin-top: 2px;
+    padding: 0px;
+    border-radius: 6px;
+}
