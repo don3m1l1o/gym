@@ -57,57 +57,13 @@ h1{
     margin-left: 50px;
 }
 
-.hello{
-    color: rgba(255, 255, 255, 0.85);
-    float: left;
-    margin-top: 25px;
-    margin-left: 420px;
-}
-
-.user{
-    width: 75px;
-    height: 75px;
-    border-radius: 150px;
-    float: right;
-    margin-right: 20px;
-}
-
-.userImg{
-    width: 75px;
-    height: 75px;
-}
-
-.btnsLog{
-    width: 110px;
-    margin-top: 75px;
-    float: right;
-    margin-left: -110px;
-}
-
-.btnLog{
-    text-align: center;
-    padding-top: 3px;
-    font-size: 10px;
-    height: 20px;
-    width: 50px;
-    border-radius: 8px;
-    display: inline-block;
-}
-
-.btnLogIn{
-    background-color: rgb(23, 241, 15);
-}
-
-.btnLogOut{
-    background-color: rgb(177, 5, 5);
-}
-
 .menuDiv{
     height: 40px;
     margin: 0px;
     padding-left: 50px;
     background-color: rgb(15, 41, 112);
     box-shadow: 3px 3px 7px rgb(44, 44, 46);
+
 }
 
 .menuItem{
@@ -220,15 +176,7 @@ h1{
     padding : 0px;
     background-color: rgb(15, 41, 112);
     box-shadow: 3px 3px 7px rgb(2, 2, 41);
-    /* box-shadow: 3px 3px 7px rgb(44, 44, 46);
-    background: rgba(8,18,133,1);
-    background: -moz-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,18,133,1)), color-stop(46%, rgba(66,66,179,1)), color-stop(100%, rgba(86,86,214,1)));
-    background: -webkit-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    background: -o-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    background: -ms-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    background: linear-gradient(to right, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081285', endColorstr='#5656d6', GradientType=1 ); */
+    
 }
 
 .itemFooter img{
@@ -242,3 +190,60 @@ h1{
     margin-top: 25px;
 }
 
+/* Perfil */
+
+.perfil{
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 1px;
+    background-color: rgb(15, 41, 112);
+    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    /* display: block; */
+}
+
+.hello{
+    color: rgba(255, 255, 255, 0.85);
+    float: left;
+    margin-top: 25px;
+    margin-left: 420px;
+}
+
+.user{
+    width: 75px;
+    height: 75px;
+    border-radius: 150px;
+    float: right;
+    margin-right: 612px;
+    margin-top: 20px;
+}
+
+.userImg{
+    width: 200px;
+    height: 200px;
+}
+
+.btnsLog{
+    width: 110px;
+    margin-top: 75px;
+    float: right;
+    margin-left: -110px;
+}
+
+.btnLog{
+    text-align: center;
+    padding-top: 3px;
+    font-size: 10px;
+    height: 20px;
+    width: 50px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btnLogIn{
+    background-color: rgb(23, 241, 15);
+}
+
+.btnLogOut{
+    background-color: rgb(177, 5, 5);
+}
