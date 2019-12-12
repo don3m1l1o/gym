@@ -18,6 +18,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -33,20 +36,24 @@
 
       <div class="divLogo"><img class="logo" src="./img/logo.png" alt=""></div>
     
-      <div class="hello">
-        <h3>Ingrese su DNI</h3>
-        <input type="DNI" id="dni">
-        <button type="button" class="btn btn-primary" id="login">Log-In</button>
-      </div>
+      <div class="log">
 
-    </div>
+        <div class="contDNI" id="dni" >
+          <input type="text" class="txtLog" size="13" maxlength="8" value="" placeholder="Ingrese el DNI">
+          <button type="button" class="btnLog" id="login">Log-In</button>
+        </div>
+        <div class="contDNI">
+          <button type="button" class="btnLogOut" >Log-Out</button>
+        </div>
+      </div>
+  </div>
     
-    <div class="menuDiv">
+    <!-- <div class="menuDiv">
         <div class="menuItem"><a href="#">Inicio</a></div>
         <div class="menuItem"><a href="#">Nosotros</a></div>
         <div class="menuItem"><a href="#">Calendario</a></div>
         <div class="menuItem"><a href="#">Contacto</a></div>
-      </div>
+    </div> -->
 
     <!-- carrusel en Bootstrap 4 -->
     <div id="contenedor">  
@@ -255,7 +262,9 @@
       
       <div class="user"><img class="userImg" src="./img/user.png" alt=""></div>
       <div class="saludo"></div>
-      <div class="cards sinpadding" id="cardsPerf">
+      <div class="contStatus"><div class="status"></div></div>
+      <div class="txtPlan"><h2>Su plan de entrenamiento es:</h2></div>
+      <!-- <div class="cards sinpadding" id="cardsPerf"> -->
 
           <div class="tarjPerfil" id="showGimL">
               <div class="contTarjImg"><img class="tarjImg" src="./img/tarjetas/card1.png" alt=""></div>
@@ -317,7 +326,7 @@
           </div>
 
       </div>
-    </div>
+    <!-- </div> -->
 
     <!-- Footer -->
 

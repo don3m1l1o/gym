@@ -1,14 +1,14 @@
 BODY {
-    /* background: url("img/fondo1.jpg") no-repeat center center fixed; */
+    background: url("img/fondo_body.jpg") no-repeat center center fixed;
     background-size: cover;
-    background: rgba(196,192,196,1);
+    /* background: rgba(196,192,196,1);
     background: -moz-linear-gradient(left, rgba(196,192,196,1) 0%, rgba(255,255,255,1) 35%, rgba(246,246,246,1) 67%, rgba(189,183,189,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(196,192,196,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(67%, rgba(246,246,246,1)), color-stop(100%, rgba(189,183,189,1)));
     background: -webkit-linear-gradient(left, rgba(196,192,196,1) 0%, rgba(255,255,255,1) 35%, rgba(246,246,246,1) 67%, rgba(189,183,189,1) 100%);
     background: -o-linear-gradient(left, rgba(196,192,196,1) 0%, rgba(255,255,255,1) 35%, rgba(246,246,246,1) 67%, rgba(189,183,189,1) 100%);
     background: -ms-linear-gradient(left, rgba(196,192,196,1) 0%, rgba(255,255,255,1) 35%, rgba(246,246,246,1) 67%, rgba(189,183,189,1) 100%);
     background: linear-gradient(to right, rgba(196,192,196,1) 0%, rgba(255,255,255,1) 35%, rgba(246,246,246,1) 67%, rgba(189,183,189,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c0c4', endColorstr='#bdb7bd', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c0c4', endColorstr='#bdb7bd', GradientType=1 ); */
 }
 
 h1{
@@ -34,17 +34,18 @@ h1{
     padding-left: 15px;
     padding-right: 20px;
     padding-top: 10px;
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(8,18,133,1);
+    background-color:rgba(67, 32, 112, 0.85);
+    /* background: rgba(8,18,133,1);
     background: -moz-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,18,133,1)), color-stop(46%, rgba(66,66,179,1)), color-stop(100%, rgba(86,86,214,1)));
     background: -webkit-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: -o-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: -ms-linear-gradient(left, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
     background: linear-gradient(to right, rgba(8,18,133,1) 0%, rgba(66,66,179,1) 46%, rgba(86,86,214,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081285', endColorstr='#5656d6', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081285', endColorstr='#5656d6', GradientType=1 ); */
 }
 
 .logo{
@@ -61,8 +62,8 @@ h1{
     height: 40px;
     margin: 0px;
     padding-left: 50px;
-    background-color: rgb(15, 41, 112);
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    background-color: rgba(67, 32, 112, 0.85);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
 
 }
 
@@ -72,14 +73,71 @@ h1{
     float: left;
 }
 
+.log{
+    border: 0ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    float: right;
+    height: 45px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.txtLog{
+    /* size:15;  */
+    height:40px;
+    border:none;
+    margin: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    color: rgb(151, 146, 146);
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.btnLog{
+    background-color: rgb(25, 2, 51);
+    border: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 60px;
+    margin-top: 2px;
+    margin-left: -3px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.btnLogOut{
+    background-color: rgb(223, 43, 43);
+    border: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.contDNI{
+    margin: 0px;
+    padding: 0px;
+}
 
 /* Carrusel */
 
 
 .carrusel{
-    background-color: rgb(15, 41, 112);
+    background-color: rgba(67, 32, 112, 0.85);
     height: 425px;
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
 }
 
 .carousel-item{
@@ -104,19 +162,19 @@ h1{
 
 
 .planes{
-    background-color: rgb(15, 41, 112);
+    background-color: rgba(67, 32, 112, 0.85);
     margin-top: 0px;
     padding: 10px;
     text-align: center;
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
 }
 
 .cards{
-    background-color: rgb(15, 41, 112);
+    background-color: rgba(67, 32, 112, 0.85);
     height: 650px;
     margin-top: 0px;
     padding: 0px;
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
 }
 
 .sinpadding [class*="col-"] {
@@ -132,7 +190,7 @@ h1{
     background-color: rgba(76, 120, 240, 0.808);
     border-radius: 8px;
     float: left;
-    box-shadow: 3px 3px 7px rgb(2, 2, 41);
+    /* box-shadow: 3px 3px 7px rgb(2, 2, 41); */
 }
 .tarjImg{
     width: 320px;
@@ -174,8 +232,8 @@ h1{
     height: 80px;
     margin-top: 1px;
     padding : 0px;
-    background-color: rgb(15, 41, 112);
-    box-shadow: 3px 3px 7px rgb(2, 2, 41);
+    background-color: rgba(67, 32, 112, 0.85);
+    /* box-shadow: 3px 3px 7px rgb(2, 2, 41); */
     
 }
 
@@ -193,12 +251,12 @@ h1{
 /* Perfil */
 
 .perfil{
-    height: 500px;
+    height: 900px;
     width: 100%;
     padding: 0px;
     margin-top: 1px;
-    background-color: rgb(15, 41, 112);
-    box-shadow: 3px 3px 7px rgb(44, 44, 46);
+    background-color: rgba(67, 32, 112, 0.85);
+    /* box-shadow: 3px 3px 7px rgb(44, 44, 46); */
     display: none; 
 }
 
@@ -221,16 +279,43 @@ h1{
     text-align: center; 
 }
 
+.contStatus{
+    width: 100%;
+    height: 80px;
+}
+
+.status{
+    background-color: yellowgreen;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+
+}
+
+.txtPlan{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
 .tarjPerfil{
     height: 200px;
     width: 320px;
     padding: 0px;
     margin-left: 35px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: rgba(76, 120, 240, 0.808);
     border-radius: 8px;
     float: left;
-    box-shadow: 3px 3px 7px rgb(2, 2, 41);
+    /* box-shadow: 3px 3px 7px rgb(2, 2, 41); */
     display: none; 
 }
 
@@ -239,4 +324,5 @@ h1{
     padding: 0px 10px;
     margin: 0px;
     text-align: center;
+    
 }
