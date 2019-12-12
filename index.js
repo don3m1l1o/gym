@@ -60,7 +60,7 @@ $("#login").click(function(){
 
         if (cli[1] == "rev"){
             $(".status").html("En Revisión");
-            $(".status").css("background-color","yellow")
+            $(".status").css("background-color","orange")
         }
         
 
@@ -85,7 +85,7 @@ $("#login").click(function(){
                 $("#showGimP").css('display', 'block');
             }
             if (cli[i] == "Cardio"){
-                $("#showCardio").css('display', 'block');
+                c
             }
         }
 
@@ -95,13 +95,35 @@ $("#login").click(function(){
 });
 
 $(".btnLogOut").click(function(){
-    // $("#contenedor").show();
-    // $("#showPerfil").css('display', 'none');
-    // $("#showFoot").css('display', 'block');
-    // $("#dni").css('display', 'inline-block');
-    // $(".btnLogOut").css('display', 'none');
     location.reload();
 });
+
+ $("#menuItem1").click(function(){
+    location.reload();
+});
+
+$("#menuItem2").click(function(){
+    $(".nos").css('display', 'block');
+    $(".cal").css('display', 'none')
+    $("#contenedor").hide();
+});
+
+$("#volver").click(function(){
+    location.reload();
+});
+
+$("#menuItem3").click(function(){
+    $(".cal").css('display', 'block');
+    $(".nos").css('display', 'none');
+    $("#contenedor").hide();
+});
+
+$("#volver2").click(function(){
+    location.reload();
+});
+
+
+
 
 
 
