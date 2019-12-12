@@ -199,23 +199,15 @@ h1{
     margin-top: 1px;
     background-color: rgb(15, 41, 112);
     box-shadow: 3px 3px 7px rgb(44, 44, 46);
-    /* display: block; */
-}
-
-.hello{
-    color: rgba(255, 255, 255, 0.85);
-    float: left;
-    margin-top: 25px;
-    margin-left: 420px;
+    display: none; 
 }
 
 .user{
-    width: 75px;
-    height: 75px;
+    width: 200px;
+    height: 200px;
     border-radius: 150px;
-    float: right;
-    margin-right: 612px;
-    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
 }
 
 .userImg{
@@ -223,27 +215,28 @@ h1{
     height: 200px;
 }
 
-.btnsLog{
-    width: 110px;
-    margin-top: 75px;
-    float: right;
-    margin-left: -110px;
+.saludo{
+    color: white;
+    margin-top: 40px;
+    text-align: center; 
 }
 
-.btnLog{
-    text-align: center;
-    padding-top: 3px;
-    font-size: 10px;
-    height: 20px;
-    width: 50px;
+.tarjPerfil{
+    height: 200px;
+    width: 320px;
+    padding: 0px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgba(76, 120, 240, 0.808);
     border-radius: 8px;
-    display: inline-block;
+    float: left;
+    box-shadow: 3px 3px 7px rgb(2, 2, 41);
+    display: none; 
 }
 
-.btnLogIn{
-    background-color: rgb(23, 241, 15);
-}
-
-.btnLogOut{
-    background-color: rgb(177, 5, 5);
+.txtTarjPerf{
+    font-size: 14px;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: center;
 }

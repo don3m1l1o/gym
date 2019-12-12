@@ -7,6 +7,8 @@
 var dni = "";
 
 $("#login").click(function(){
+
+    var cli = [];
     
     var dni= $("#dni").val();
 
@@ -23,12 +25,19 @@ $("#login").click(function(){
             $("#contenedor").hide();
 
             $("#showPerfil").css('display', 'block');
+
+            $("#showFoot").css('display', 'none');
             
+            var ac = 0;    
+
             for(var i in lista){
+
+                cli[ac] = lista[i];
       
-                toShow += "<div><p>" + i + "  " + lista[i] + "</p></div>"
-            
-                }
+                toShow += "<div><p>" + cli[ac] + ac[3] +"</p></div>"
+                
+                ac++
+            }
                
         }else{
 
@@ -36,13 +45,45 @@ $("#login").click(function(){
 
         }
         
-        $("#aparece").html(toShow)
-      
+        $(".saludo").html("<h1>Hola " + cli[2] +"!!!</h1>");
+
+        //Filtrando planes
+
+        for (var i=3 ; i < 6 ; i++){
+
+            if (cli[i] == "Natación"){
+                $("#showNat").css('display', 'block');
+            }
+            if (cli[i] == "Boxeo"){
+                $("#showBox").css('display', 'block');
+            }
+            if (cli[i] == "Karate"){
+                $("#showKar").css('display', 'block');
+            }
+            if (cli[i] == "GLibre"){
+                $("#showGimL").css('display', 'block');
+            }
+            if (cli[i] == "GPlus"){
+                $("#showGimP").css('display', 'block');
+            }
+            if (cli[i] == "Cardio"){
+                $("#showCardio").css('display', 'block');
+            }
+        }
+
+        //Alineando
+        //$("#cardsPerf").css({'float':'none', 'padding':'auto'});      
       })
+
+      //filtrando planes
+
+
 
 });
 
-// Consuminedo datos de la Base
+
+
+
 
 
 
